@@ -1,7 +1,7 @@
 # ToxTree
 ToxTree is a machine learning based model to predict hERG and Nav1.5 cardiotoxicity of a molecular compound at different potency levels:
 
-The model predicts toxicities in one of the four classes(Potencies are in micro molar):
+The model predicts toxicities in one of the four classes(Potencies are in μM):
  - Strong blocker: 0<IC50<=1
  - Moderate blocker: 1<IC50<=10
  - Week blocker: 10<IC50<=30
