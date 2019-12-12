@@ -11,7 +11,7 @@ The model predicts toxicities in one of the four classes(Potencies are in μM):
 :exclamation:Download first the whole toxtree package and follw the steps bellow.
 
 
-## Packge structure
+## Package structure
 
 - 'toxtree' package is the main package of the software
 - 'toxtree.py' is the main entry point to the software
@@ -46,7 +46,7 @@ One can put as many smile formats to be processed as he wishes in the same file,
 - You may have to add "-maxruntime 100000" to the command in case of a very long smile format of a molecular compound that will take too much time to converge for final values.
 - The descriptors of the the smile formats will be output in the file "output/descriptor_values.scv", each line coresponding to one molecular compund in the input.
 	
-#### Step two(make predictions):
+#### Step two(Make predictions):
 - Make sure you have "Python 3.5 or higher" installed => (You may follw this link for Macos users: http://dioskurn.com/installing-scikit-learn-in-macos/ )
 
 		(Check version by typing: $python -V)
