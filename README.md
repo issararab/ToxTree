@@ -33,36 +33,43 @@ To run the software, make sure you have:
 ### Two steps
 ##### Step one(Generate descriptors):
 
--Install Java 6 or higher 
--Download Padel from: http://www.yapcwsoft.com/dd/padeldescriptor/ OR (In "PaDEL" folder, unzip the compressed file name "PaDEL-Descriptor" containing the software downloaded for you)
--After decompression, the folder will contain the ".jar" file of the software named (PaDEL-Descriptor.jar)
--Now, get the canonical smile format of a molecular compound of your concern
--Paste the smile line in a file having the extension (.smi). An exeample is pasted in the file with path "PaDEL/input/Sample_Canonical_SMILES.smi".
+- Install Java 6 or higher 
+- Download Padel from: http://www.yapcwsoft.com/dd/padeldescriptor/ OR (In "PaDEL" folder, unzip the compressed file name "PaDEL-Descriptor" containing the software downloaded for you)
+- After decompression, the folder will contain the ".jar" file of the software named (PaDEL-Descriptor.jar)
+- Now, get the canonical smile format of a molecular compound of your concern
+- Paste the smile line in a file having the extension (.smi). An exeample is pasted in the file with path "PaDEL/input/Sample_Canonical_SMILES.smi".
 	 
 One can put as many smile formats to be processed as he wishes in the same file, each one in a row. Molecular compounds will then be processed sequentially.
 
--Now, in the "PaDEL" folder containing the jar file, run the following command to generate 1D and 2D descriptors:
+- Now, in the "PaDEL" folder containing the jar file, run the following command to generate 1D and 2D descriptors:
 		java -jar PaDEL-Descriptor.jar -2d -retainorder -dir input/ -file output/descriptor_values.scv
--You may have to add "-maxruntime 100000" to the command in case of a very long smile format of a molecular compound that will take too much time to converge for final values.
--The descriptors of the the smile formats will be output in the file "output/descriptor_values.scv", each line coresponding to one molecular compund in the input.
+- You may have to add "-maxruntime 100000" to the command in case of a very long smile format of a molecular compound that will take too much time to converge for final values.
+- The descriptors of the the smile formats will be output in the file "output/descriptor_values.scv", each line coresponding to one molecular compund in the input.
 	
 #### Step two(make predictions):
--Make sure you have "Python 3.5 or higher" installed => (You may follw this link for Macos users: http://dioskurn.com/installing-scikit-learn-in-macos/ )
+- Make sure you have "Python 3.5 or higher" installed => (You may follw this link for Macos users: http://dioskurn.com/installing-scikit-learn-in-macos/ )
+
 		(Check version by typing: $python -V)
--Make sure you have "Pip3" installed
+- Make sure you have "Pip3" installed
+
 		(Check version by typing: $pip3 -V)
--Install scikit-learn by typing the following commands: 
+- Install scikit-learn by typing the following commands: 
+
 		$pip install -U scikit-learn
--cd to "toxtree" folder
--Once everything is set up, run: 
+- cd to "toxtree" folder
+- Once everything is set up, run: 
+
 		$python toxtree-py -help
--run the software for predictions as follow:
+- run the software for predictions as follow:
 => For hERG liability predictions: 
+
 		python toxtree.py -i test_bed/result.csv --hERG
 => For nAv1.5 liability predictions: 
+
 		python toxtree.py -i test_bed/result.csv --Nav1.5
--If you want to output the results in a file rather than the console append "> <file_name>" to the end of the command
-=> Example: 
+- If you want to output the results in a file rather than the console append "> <file_name>" to the end of the command
+=> Example:
+
 		python toxtree.py -i test_bed/herg_test.csv --hERG > myPreds.txt
 		
 Enjoy your predictions :)
