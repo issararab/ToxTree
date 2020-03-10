@@ -1,4 +1,5 @@
-Software will be published after paper accepted for publication.(Work in progress)
+Software will be published soon ...(Work in progress)
+
 # ToxTree
 ToxTree is a machine learning based model to predict hERG and Nav1.5 cardiotoxicity of a molecular compound at different potency levels:
 
