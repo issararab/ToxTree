@@ -17,8 +17,8 @@ The model predicts toxicities in one of the four classes(Potencies are in μM):
 
 - 'toxtree' package is the main package of the software
 - 'toxtree.py' is the main entry point to the software
-- 'hERG_models' package contains all hERG train models 
-- 'nav1.5_models' package contains all Nav1.5 train models 
+- 'hERG_models' package contains all hERG trained models 
+- 'nav1.5_models' package contains all Nav1.5 trained models 
 - 'inducers' package contains hERG and Nav1.5 toxtree inference pipeline (makes the final decisions)
 - 'PaDEL' package contains PaDEL software to generate descriptors from canonical SMILE format
 - 'test_bed' contains some csv files containining descriptors of molecular compounds for test purposes. Can also be used
