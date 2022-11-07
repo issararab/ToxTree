@@ -58,10 +58,12 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 
 		$python toxtree-py -help
 - run the software for predictions as follow:
-=> For hERG liability predictions: 
+
+	=> For hERG liability predictions: 
 
 		python toxtree.py -i output/hERG/descriptor_values.csv --hERG
-=> For nAv1.5 liability predictions: 
+
+	=> For nAv1.5 liability predictions: 
 
 		python toxtree.py -i output/Nav1.5/descriptor_values.csv --Nav1.5
 
