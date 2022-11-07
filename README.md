@@ -57,7 +57,7 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 - Once everything is set up, run: 
 
 		$python toxtree-py -help
-- run the software for predictions as follow:
+- run the software for predictions as follow (Ex. External evaluation Set):
 
 	=> For hERG liability predictions: 
 
