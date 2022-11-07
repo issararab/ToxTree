@@ -23,6 +23,7 @@ The model predicts toxicities in one of the four classes(Potencies are in μM):
 - 'nav1.5_models' package contains all Nav1.5 trained models 
 - 'inducers' package contains hERG and Nav1.5 toxtree inference pipeline
 - 'PaDEL' package contains PaDEL software to generate descriptors from canonical SMILES strings
+- 'data_sets' package contains the full datasets used for training, testing, and final evaluation of the software
 
 ## Prerequisites
 To run the software, make sure you have the following dependencies and packages installed:
