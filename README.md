@@ -47,7 +47,7 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 
 - The descriptors of the the smile formats will be written in the file "output/hERG/descriptor_values.csv", each line coresponding to one molecular compund in the input file.
 	
-#### Step two(Make predictions):
+#### Step two.1 (Make predictions from command prompt):
 - Make sure you have "Python 3.5 or higher" installed => (You may follw this link for Macos users: http://dioskurn.com/installing-scikit-learn-in-macos/ )
 
 		(Check version by typing: $python -V)
@@ -70,3 +70,14 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 	=> For Nav1.5 liability predictions: 
 
 		python toxtree.py -i output/Nav1.5/descriptor_values.csv --Nav1.5
+
+#### Step two.2 (Make predictions in jupyter-notebook):
+- The Analysis_Notebook.ipynb includes the evaluation of the software on an external evaluation set for both hERG and Nav1.5 directly in a notebook.
+- The notebook shows how the external evalution sets have a Tanimoto Similarity of less than 70%
+	<p align="center">
+		<img src="images/hERG_eval_set_Tanimoto_Similarity_distribution.png" width="320" height="400" />
+	</p>
+- And prediction results using the inference pipelines as well as the evaluation metrics
+	<p align="center">
+		<img src="images/hERG_eval_set_confusion_matrix.png" width="320" height="400" />
+	</p>
