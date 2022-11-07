@@ -75,9 +75,9 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 - The Analysis_Notebook.ipynb includes the evaluation of the software on an external evaluation set for both hERG and Nav1.5 directly in a notebook.
 - The notebook shows how the external evalution sets have a Tanimoto Similarity of less than 70%
 	<p align="center">
-		<img src="images/hERG_eval_set_Tanimoto_Similarity_distribution.png" width="400" height="400" />
+		<img src="images/hERG_eval_set_Tanimoto_Similarity_distribution.png" width="400" height="350" />
 	</p>
 - And prediction results using the inference pipelines as well as the evaluation metrics
 	<p align="center">
-		<img src="images/hERG_eval_set_confusion_matrix.png" width="400" height="400" />
+		<img src="images/hERG_eval_set_confusion_matrix.png" width="400" height="350" />
 	</p>
