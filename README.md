@@ -10,8 +10,8 @@ The model predicts toxicities in one of the four classes(Potencies are in μM):
 
 :exclamation:Download first the whole toxtree package and follw the steps bellow.
 
+<img src="images/ToxTree-hERG.png" width="200" height="400" />
 
-![My Image](images/ToxTree-hERG.png)
 
 ## Package structure
 
