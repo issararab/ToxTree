@@ -71,9 +71,9 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 
 		python toxtree.py -i output/Nav1.5/descriptor_values.csv --Nav1.5
 
-#### Step two.2 (Make predictions in jupyter-notebook):
+#### Step two.2 (Make predictions from a jupyter-notebook):
 - The Analysis_Notebook.ipynb includes the evaluation of the software on an external evaluation set for both hERG and Nav1.5 directly in a notebook.
-- The notebook shows how the external evalution sets have a Tanimoto Similarity of less than 70%
+- The notebook shows how the external evalution sets have a Tanimoto Similarity of less than 70% with respect to the training and test presented in the paper.
 	<p align="center">
 		<img src="images/hERG_eval_set_Tanimoto_Similarity_distribution.png" width="420" height="320" />
 	</p>
