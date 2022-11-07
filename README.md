@@ -47,9 +47,9 @@ One can put as many SMILES strings to be processed as he wishes in the same file
 - Make sure you have "Python 3.5 or higher" installed => (You may follw this link for Macos users: http://dioskurn.com/installing-scikit-learn-in-macos/ )
 
 		(Check version by typing: $python -V)
-- Make sure you have "Pip3" installed
+- Make sure you have "Pip" installed
 
-		(Check version by typing: $pip3 -V)
+		(Check version by typing: $pip -V)
 - Install scikit-learn by typing the following commands: 
 
 		$pip install -U scikit-learn==0.21.3
