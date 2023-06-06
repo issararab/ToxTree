@@ -18,7 +18,7 @@ The model predicts toxicities in one of the four classes(Potencies are in μM):
 
 If you use this repository or its dataset in your work, please cite the following publications:
 
-- Arab, I.; Barakat, K. ** ToxTree: descriptor-based machine learning models for both hERG and Nav1.5 cardiotoxicity liability predictions. ** arXiv , December 27, 2021, arXiv:2112.13467, ver. 1.  [DOI: 10.48550/arXiv:2112.13467v1](https://arxiv.org/abs/2112.13467)
+- Arab, I.; Barakat, K. **ToxTree: descriptor-based machine learning models for both hERG and Nav1.5 cardiotoxicity liability predictions.** arXiv , December 27, 2021, arXiv:2112.13467, ver. 1.  [DOI: 10.48550/arXiv:2112.13467v1](https://arxiv.org/abs/2112.13467)
 
 ## Package structure
 
